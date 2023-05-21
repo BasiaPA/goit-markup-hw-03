@@ -1,0 +1,66 @@
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1, 9;
+  letter-spacing: 0, 03em;
+  text-decoration: none;
+  list-style: none;
+}
+.logo-item {
+  color: #2196f3;
+}
+.logo-item-primary {
+  color: #000000;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #212121;
+}
+a:hover {
+  color: #821328;
+}
+.self-color {
+  color: #2196f3;
+}
+a.self-color:hover {
+  color: #821328;
+}
+a.secondary:hover {
+  color: #821328;
+}
+
+.button-self-item:hover {
+  background-color: #2196f3;
+  color: rgb(236, 238, 240);
+  border-radius: 2px;
+  cursor: pointer;
+}
+.button-self-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  border: none;
+  background-color: #e7e7e7;
+  cursor: pointer;
+}
+.secondary-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1, 8;
+  letter-spacing: 0, 06em;
+  color: #212121;
+}
+.section-p-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 8;
+  letter-spacing: 0, 03em;
+  color: #757575;
+}
