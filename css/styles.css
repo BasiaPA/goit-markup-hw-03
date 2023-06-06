@@ -24,8 +24,10 @@ a {
 a:hover {
   color: #2196f3;
 }
-body {
-  max-width: 1600px;
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .button-self-item:hover {
   background-color: #2196f3;
@@ -82,22 +84,19 @@ body {
   display: block;
 }
 .nine-pictures {
-  width: 1170px;
+  width: 100%;
   margin-bottom: 94px;
-}
-.three-section {
-  display: block;
-  margin-bottom: 30px;
 }
 
 .three-pictures {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 10px;
+  padding: 0;
 }
 .menu {
-  width: 1200px;
   background-color: none;
   display: flex;
   border-bottom: #eeeeee solid 1px;
@@ -105,7 +104,7 @@ body {
 .first-navigation {
   display: flex;
   letter-spacing: 0.02em;
-  padding-left: 215px;
+  padding-left: 94px;
   padding-right: 93px;
   padding-bottom: 25px;
   padding-top: 24px;
@@ -117,7 +116,7 @@ body {
   width: 254px;
   font-size: 16px;
 
-  padding-left: 93px;
+  padding-left: 94px;
   padding-top: 24px;
   font-family: Roboto;
 
@@ -126,7 +125,7 @@ body {
 .second-navigation {
   display: flex;
   justify-content: flex-end;
-  padding-left: 93px;
+  padding-left: 220px;
   padding-top: 24px;
 
   gap: 20px;
@@ -138,7 +137,7 @@ body {
 
 .item {
   display: block;
-  width: 1200px;
+
   height: 600px;
   background-color: #2f303a;
 }
@@ -198,7 +197,7 @@ h1 {
 }
 .img-navigation {
   display: block;
-  max-width: 1170px;
+  max-width: 100%;
   margin-top: 94px;
   margin-bottom: 94px;
 }
@@ -218,17 +217,25 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  max-width: 1170px;
+  gap: 20px;
+
+  padding-right: 0;
+  padding-left: 0;
+
+  margin: 0 auto;
 }
 .images {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 370px;
+  margin: 0 auto;
+  padding-right: 0;
+  padding-left: 0;
 }
 .box {
   display: block;
-  width: 1200px;
+
   height: 648px;
   background-color: #f5f4fa;
 }
@@ -247,7 +254,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1170px;
+
   gap: 30px;
   margin: 0 auto;
   padding-left: 0;
@@ -296,7 +303,6 @@ h1 {
   color: #757575;
 }
 .footer-box {
-  width: 1200px;
   height: 252px;
   background-color: #2f303a;
   display: block;
