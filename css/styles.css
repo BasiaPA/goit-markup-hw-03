@@ -7,6 +7,9 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   list-style: none;
+  padding-bottom: 25px;
+  padding-top: 24px;
+  padding-left: 94px;
 }
 .logo-item {
   color: #2196f3;
@@ -83,8 +86,10 @@ a:hover {
 .column {
   display: block;
 }
+.pictures {
+  background-color: none;
+}
 .nine-pictures {
-  width: 100%;
   margin-bottom: 94px;
 }
 
@@ -96,50 +101,46 @@ a:hover {
   gap: 10px;
   padding: 0;
 }
-.menu {
+.header {
   background-color: none;
+}
+.menu {
   display: flex;
   border-bottom: #eeeeee solid 1px;
+  justify-content: space-between;
 }
 .first-navigation {
   display: flex;
-  letter-spacing: 0.02em;
-  padding-left: 94px;
-  padding-right: 93px;
-  padding-bottom: 25px;
-  padding-top: 24px;
 }
 .main-navigation {
   display: flex;
-  justify-content: space-around;
   gap: 20px;
   width: 254px;
   font-size: 16px;
-
-  padding-left: 94px;
   padding-top: 24px;
   font-family: Roboto;
-
   font-weight: 400;
+}
+.example {
+  display: flex;
+  justify-content: flex-end;
 }
 .second-navigation {
   display: flex;
-  justify-content: flex-end;
-  padding-left: 220px;
   padding-top: 24px;
-
   gap: 20px;
   font-size: 16px;
   font-family: Roboto;
-
   font-weight: 400;
+}
+.black-title {
+  background-color: #2f303a;
 }
 
 .item {
   display: block;
 
   height: 600px;
-  background-color: #2f303a;
 }
 h1 {
   color: #ffffff;
@@ -169,16 +170,22 @@ h1 {
   margin-bottom: 30px;
   margin: 0 auto;
 }
+.four-text {
+  background-color: none;
+}
 .lorem {
   display: flex;
-  max-width: 1170px;
   align-items: center;
   justify-content: center;
+  max-width: 1170px;
   margin-top: 94px;
   margin-bottom: 94px;
+  padding-right: 0;
+  padding-left: 0;
 }
 .content {
   display: flex;
+
   justify-content: center;
   align-items: center;
 
@@ -194,6 +201,9 @@ h1 {
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
+}
+.what-we-do {
+  background-color: none;
 }
 .img-navigation {
   display: block;
@@ -233,11 +243,11 @@ h1 {
   padding-right: 0;
   padding-left: 0;
 }
+.team {
+  background-color: #f5f4fa;
+}
 .box {
   display: block;
-
-  height: 648px;
-  background-color: #f5f4fa;
 }
 .title-position {
   display: flex;
@@ -302,9 +312,12 @@ h1 {
   font-size: 16px;
   color: #757575;
 }
+.footer-page {
+  background-color: #2f303a;
+}
 .footer-box {
   height: 252px;
-  background-color: #2f303a;
+
   display: block;
   justify-content: center;
   align-items: center;
